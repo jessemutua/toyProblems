@@ -9,5 +9,20 @@ let marks;
 //determining grade.
 function grade() {
     //assign marks a value.
-    mar
+    marks = parseInt(Grade.mark.value);
+    //Determine grade
+    if (marks >= 79 && marks <= 100) {
+        alert("Your Grade is: A")
+    } else if (marks >= 60 && marks <= 78) {
+        alert("Your Grade is: B")
+    } else if (marks >= 49 && marks <= 59) {
+        alert("Your Grade is: C")
+    } else if (marks >= 40 && marks <= 49) {
+        alert("Your Grade is: D")
+    } else if (marks >= 0 && marks <= 39) {
+        alert("Your Grade is: E")
+    } else if (marks > 100) {
+        alert("Please input a valid value")
+    }
+
 };
