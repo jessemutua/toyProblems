@@ -9,7 +9,7 @@ let marks;
 //determining grade.
 function grade() {
     //assign marks a value.
-    marks = parseInt(Grade.mark.value);
+    marks = parseInt(Grade.txnum.value);
     //Determine grade
     if (marks >= 79 && marks <= 100) {
         alert("Your Grade is: A")
