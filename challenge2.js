@@ -28,9 +28,5 @@ function getSpeed() {
             //alert of the demerits
             alert("Total demerits: " + points)
         }
-
     }
-
-
-
 }
